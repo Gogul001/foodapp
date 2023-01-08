@@ -1,0 +1,47 @@
+.imagewrapper{
+    position:relative ;
+    width : 16rem;
+    height: 18rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    
+}
+
+
+.pizza{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.span{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    size: 20px;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.span>span:nth-child(2){
+    color: var(--themeRed);
+}
+
+
+
+.pizza:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.pmenu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+
+}

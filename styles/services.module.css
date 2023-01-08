@@ -1,0 +1,30 @@
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 8rem;
+    padding-top: 0rem;
+}
+
+.imagewrapper{
+    width: 200px;
+    height: 200px;
+}
+
+.img1{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.imgd{
+    font-size: small;
+}

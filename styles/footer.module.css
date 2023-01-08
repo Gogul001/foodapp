@@ -1,0 +1,21 @@
+.footer{
+    gap: 1.5rem;
+    padding-left: 30rem;
+    color: rgb(212, 48, 48);
+    display: flex;
+    flex-direction: row;
+}
+
+.reserved{
+    color: var(--themeRed);
+    font-weight: bold;
+    padding-left: 30rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    font-size: large;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+}

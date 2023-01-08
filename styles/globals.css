@@ -52,3 +52,17 @@ a {
   transition: all 300ms ease;
 
 }
+
+.btn{
+  width: max-content;
+  border-radius: 4rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  color: white;
+  background-color: var(--themeRed);
+}
+
+.btn:hover{
+  background-color: rgb(244, 102, 41);
+}
